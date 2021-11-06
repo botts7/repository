@@ -2,162 +2,162 @@
 channel: stable
 addons:
   adguard:
-    repository: hassio-addons/addon-adguard-home
+    repository: botts7/addon-adguard-home
     target: adguard
-    image: ghcr.io/hassio-addons/adguard/{arch}
+    image: ghcr.io/botts7/adguard/{arch}
   aircast:
-    repository: hassio-addons/addon-aircast
+    repository: botts7/addon-aircast
     target: aircast
-    image: ghcr.io/hassio-addons/aircast/{arch}
+    image: ghcr.io/botts7/aircast/{arch}
   airsonos:
-    repository: hassio-addons/addon-airsonos
+    repository: botts7/addon-airsonos
     target: airsonos
-    image: ghcr.io/hassio-addons/airsonos/{arch}
+    image: ghcr.io/botts7/airsonos/{arch}
   appdaemon:
-    repository: hassio-addons/addon-appdaemon
+    repository: botts7/addon-appdaemon
     target: appdaemon
-    image: ghcr.io/hassio-addons/appdaemon/{arch}
+    image: ghcr.io/botts7/appdaemon/{arch}
   bitwarden:
-    repository: hassio-addons/addon-bitwarden
+    repository: botts7/addon-bitwarden
     target: bitwarden
-    image: ghcr.io/hassio-addons/bitwarden/{arch}
+    image: ghcr.io/botts7/bitwarden/{arch}
   bookstack:
-    repository: hassio-addons/addon-bookstack
+    repository: botts7/addon-bookstack
     target: bookstack
-    image: ghcr.io/hassio-addons/bookstack/{arch}
+    image: ghcr.io/botts7/bookstack/{arch}
   chrony:
-    repository: hassio-addons/addon-chrony
+    repository: botts7/addon-chrony
     target: chrony
-    image: ghcr.io/hassio-addons/chrony/{arch}
+    image: ghcr.io/botts7/chrony/{arch}
   esphome:
     repository: esphome/hassio
     target: esphome
     image: esphome/esphome-hassio-{arch}
   example:
-    repository: hassio-addons/addon-example
+    repository: botts7/addon-example
     target: example
-    image: ghcr.io/hassio-addons/example/{arch}
+    image: ghcr.io/botts7/example/{arch}
   foldingathome:
-    repository: hassio-addons/addon-foldingathome
+    repository: botts7/addon-foldingathome
     target: foldingathome
-    image: ghcr.io/hassio-addons/foldingathome/{arch}
+    image: ghcr.io/botts7/foldingathome/{arch}
   ftp:
-    repository: hassio-addons/addon-ftp
+    repository: botts7/addon-ftp
     target: ftp
-    image: ghcr.io/hassio-addons/ftp/{arch}
+    image: ghcr.io/botts7/ftp/{arch}
   glances:
-    repository: hassio-addons/addon-glances
+    repository: botts7/addon-glances
     target: glances
-    image: ghcr.io/hassio-addons/glances/{arch}
+    image: ghcr.io/botts7/glances/{arch}
   grafana:
-    repository: hassio-addons/addon-grafana
+    repository: botts7/addon-grafana
     target: grafana
-    image: ghcr.io/hassio-addons/grafana/{arch}
+    image: ghcr.io/botts7/grafana/{arch}
   grocy:
-    repository: hassio-addons/addon-grocy
+    repository: botts7/addon-grocy
     target: grocy
-    image: ghcr.io/hassio-addons/grocy/{arch}
+    image: ghcr.io/botts7/grocy/{arch}
   home-panel:
-    repository: hassio-addons/addon-home-panel
+    repository: botts7/addon-home-panel
     target: home-panel
-    image: ghcr.io/hassio-addons/home-panel/{arch}
+    image: ghcr.io/botts7/home-panel/{arch}
   influxdb:
-    repository: hassio-addons/addon-influxdb
+    repository: botts7/addon-influxdb
     target: influxdb
-    image: ghcr.io/hassio-addons/influxdb/{arch}
+    image: ghcr.io/botts7/influxdb/{arch}
   jupyterlab:
-    repository: hassio-addons/addon-jupyterlab
+    repository: botts7/addon-jupyterlab
     target: jupyterlab
-    image: ghcr.io/hassio-addons/jupyterlab/{arch}
+    image: ghcr.io/botts7/jupyterlab/{arch}
   log-viewer:
-    repository: hassio-addons/addon-log-viewer
+    repository: botts7/addon-log-viewer
     target: log-viewer
-    image: ghcr.io/hassio-addons/log-viewer/{arch}
+    image: ghcr.io/botts7/log-viewer/{arch}
   matrix:
-    repository: hassio-addons/addon-matrix
+    repository: botts7/addon-matrix
     target: matrix
-    image: ghcr.io/hassio-addons/matrix/{arch}
+    image: ghcr.io/botts7/matrix/{arch}
   motioneye:
-    repository: hassio-addons/addon-motioneye
+    repository: botts7/addon-motioneye
     target: motioneye
-    image: ghcr.io/hassio-addons/motioneye/{arch}
+    image: ghcr.io/botts7/motioneye/{arch}
   node-red:
-    repository: hassio-addons/addon-node-red
+    repository: botts7/addon-node-red
     target: node-red
-    image: ghcr.io/hassio-addons/node-red/{arch}
+    image: ghcr.io/botts7/node-red/{arch}
   nginxproxymanager:
-    repository: hassio-addons/addon-nginx-proxy-manager
+    repository: botts7/addon-nginx-proxy-manager
     target: proxy-manager
-    image: ghcr.io/hassio-addons/nginxproxymanager/{arch}
+    image: ghcr.io/botts7/nginxproxymanager/{arch}
   nut:
-    repository: hassio-addons/addon-nut
+    repository: botts7/addon-nut
     target: nut
-    image: ghcr.io/hassio-addons/nut/{arch}
+    image: ghcr.io/botts7/nut/{arch}
   phpmyadmin:
-    repository: hassio-addons/addon-phpmyadmin
+    repository: botts7/addon-phpmyadmin
     target: phpmyadmin
-    image: ghcr.io/hassio-addons/phpmyadmin/{arch}
+    image: ghcr.io/botts7/phpmyadmin/{arch}
   plex:
-    repository: hassio-addons/addon-plex
+    repository: botts7/addon-plex
     target: plex
-    image: ghcr.io/hassio-addons/plex/{arch}
+    image: ghcr.io/botts7/plex/{arch}
   portainer:
-    repository: hassio-addons/addon-portainer
+    repository: botts7/addon-portainer
     target: portainer
-    image: ghcr.io/hassio-addons/portainer/{arch}
+    image: ghcr.io/botts7/portainer/{arch}
   spotify:
-    repository: hassio-addons/addon-spotify-connect
+    repository: botts7/addon-spotify-connect
     target: spotify
-    image: ghcr.io/hassio-addons/spotify/{arch}
+    image: ghcr.io/botts7/spotify/{arch}
   tailscale:
-    repository: hassio-addons/addon-tailscale
+    repository: botts7/addon-tailscale
     target: tailscale
-    image: ghcr.io/hassio-addons/tailscale/{arch}
+    image: ghcr.io/botts7/tailscale/{arch}
   tasmoadmin:
-    repository: hassio-addons/addon-tasmoadmin
+    repository: botts7/addon-tasmoadmin
     target: tasmoadmin
-    image: ghcr.io/hassio-addons/tasmoadmin/{arch}
+    image: ghcr.io/botts7/tasmoadmin/{arch}
   tautulli:
-    repository: hassio-addons/addon-tautulli
+    repository: botts7/addon-tautulli
     target: tautulli
-    image: ghcr.io/hassio-addons/tautulli/{arch}
+    image: ghcr.io/botts7/tautulli/{arch}
   thelounge:
-    repository: hassio-addons/addon-thelounge
+    repository: botts7/addon-thelounge
     target: thelounge
-    image: ghcr.io/hassio-addons/thelounge/{arch}
+    image: ghcr.io/botts7/thelounge/{arch}
   ssh:
-    repository: hassio-addons/addon-ssh
+    repository: botts7/addon-ssh
     target: ssh
-    image: ghcr.io/hassio-addons/ssh/{arch}
+    image: ghcr.io/botts7/ssh/{arch}
   sqlite-web:
-    repository: hassio-addons/addon-sqlite-web
+    repository: botts7/addon-sqlite-web
     target: sqlite-web
-    image: ghcr.io/hassio-addons/sqlite-web/{arch}
+    image: ghcr.io/botts7/sqlite-web/{arch}
   tor:
-    repository: hassio-addons/addon-tor
+    repository: botts7/addon-tor
     target: tor
-    image: ghcr.io/hassio-addons/tor/{arch}
+    image: ghcr.io/botts7/tor/{arch}
   traccar:
-    repository: hassio-addons/addon-traccar
+    repository: botts7/addon-traccar
     target: traccar
-    image: ghcr.io/hassio-addons/traccar/{arch}
+    image: ghcr.io/botts7/traccar/{arch}
   unifi:
-    repository: hassio-addons/addon-unifi
+    repository: botts7/addon-unifi
     target: unifi
-    image: ghcr.io/hassio-addons/unifi/{arch}
+    image: ghcr.io/botts7/unifi/{arch}
   vscode:
-    repository: hassio-addons/addon-vscode
+    repository: botts7/addon-vscode
     target: vscode
-    image: ghcr.io/hassio-addons/vscode/{arch}
+    image: ghcr.io/botts7/vscode/{arch}
   wireguard:
-    repository: hassio-addons/addon-wireguard
+    repository: botts7/addon-wireguard
     target: wireguard
-    image: ghcr.io/hassio-addons/wireguard/{arch}
+    image: ghcr.io/botts7/wireguard/{arch}
   zerotier:
-    repository: hassio-addons/addon-zerotier
+    repository: botts7/addon-zerotier
     target: zerotier
-    image: ghcr.io/hassio-addons/zerotier/{arch}
+    image: ghcr.io/botts7/zerotier/{arch}
   zwavejs2mqtt:
-    repository: hassio-addons/addon-zwavejs2mqtt
+    repository: botts7/addon-zwavejs2mqtt
     target: zwavejs2mqtt
-    image: ghcr.io/hassio-addons/zwavejs2mqtt/{arch}
+    image: ghcr.io/botts7/zwavejs2mqtt/{arch}
