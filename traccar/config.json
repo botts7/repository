@@ -3,7 +3,7 @@
   "version": "0.13.1",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
-  "url": "https://github.com/hassio-addons/addon-traccar",
+  "url": "https://github.com/botts7/addon-traccar",
   "ingress": true,
   "ingress_port": 0,
   "ingress_stream": true,
@@ -39,5 +39,5 @@
     "certfile": "str",
     "keyfile": "str"
   },
-  "image": "ghcr.io/hassio-addons/traccar/{arch}"
+  "image": "ghcr.io/botts7/traccar/{arch}"
 }
